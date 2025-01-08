@@ -10,10 +10,10 @@
 
 
         <!-- Additional CSS Files -->
-        <link rel="stylesheet" href="/css/fontawesome.css">
-        <link rel="stylesheet" href="/css/templatemo-onix-digital.css">
-        <link rel="stylesheet" href="/css/animated.css">
-        <link rel="stylesheet" href="/css/owl.css">
+        <link rel="stylesheet" href="{{asset('css/fontawesome.css')}}">
+        <link rel="stylesheet" href="{{asset('css/templatemo-onix-digital.css')}}">
+        <link rel="stylesheet" href="{{asset('css/animated.css')}}">
+        <link rel="stylesheet" href="{{asset('css/owl.css')}}">
 </head>
 <body>
 
@@ -117,12 +117,12 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="{{asset('js/jquery.min.js')}}"></script>
+  <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('js/owl-carousel.js')}}"></script>
+  <script src="{{asset('js/animation.js')}}"></script>
+  <script src="{{asset("js/imagesloaded.js")}}"></script>
+  <script src="{{asset('js/custom.js')}}"></script>
 
   <script>
   // Acc
