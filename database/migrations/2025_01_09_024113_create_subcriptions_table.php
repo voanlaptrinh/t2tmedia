@@ -11,13 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('langdingpages', function (Blueprint $table) {
+        Schema::create('subcriptions', function (Blueprint $table) {
             $table->id();
             $table->string('title')->nullable();
-            $table->string('suptitle')->nullable();
-            $table->string('images')->nullable();
-            $table->integer('order')->nullable();
-            $table->integer('status')->nullable();
+            $table->string('price')->nullable();
+            $table->string('description')->nullable();
             $table->timestamps();
         });
     }
@@ -27,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('langdingpages');
+        Schema::dropIfExists('subcriptions');
     }
 };

@@ -1,5 +1,3 @@
-@extends('index')
-@section('content')
 
 <div id="video" class="our-videos section">
     <div class="videos-left-dec">
@@ -110,4 +108,3 @@
     </div>
   </div>
 
-@endsection

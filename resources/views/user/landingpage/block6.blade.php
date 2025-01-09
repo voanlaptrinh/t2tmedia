@@ -1,5 +1,3 @@
-@extends('index')
-@section('content')
 
 <div id="subscribe" class="subscribe">
     <div class="container">
@@ -22,4 +20,3 @@
     </div>
   </div>
 
-@endsection

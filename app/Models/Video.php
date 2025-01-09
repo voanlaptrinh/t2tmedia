@@ -5,15 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Langdingpages extends Model
+class Video extends Model
 {
     use HasFactory;
-    protected $table = 'landingpages';
-    protected $fillable = [
+    protected $table = 'videos';
+    protected $fillable =[
         'title',
-        'images',
-        'order',
-        'status',
+        'video',
+        'content',
     ];
-
 }

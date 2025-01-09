@@ -1,5 +1,3 @@
-@extends('index')
-@section('content')
 
 <div id="portfolio" class="our-portfolio section">
     <div class="portfolio-left-dec">
@@ -157,4 +155,3 @@
     </div>
   </div>
 
-@endsection

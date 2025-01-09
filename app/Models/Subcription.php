@@ -5,15 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Langdingpages extends Model
+class Subcription extends Model
 {
     use HasFactory;
-    protected $table = 'landingpages';
+    protected $table='subcriptions';
     protected $fillable = [
         'title',
-        'images',
-        'order',
-        'status',
-    ];
-
+        'price',
+        'description',
+    ];  
 }

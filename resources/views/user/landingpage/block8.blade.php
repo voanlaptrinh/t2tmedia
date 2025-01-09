@@ -1,5 +1,3 @@
-@extends('index')
-@section('content')
 
 <div id="contact" class="contact-us section">
     <div class="container">
@@ -57,4 +55,3 @@
     </div>
   </div>
 
-@endsection

@@ -1,5 +1,3 @@
-@extends('index')
-@section('content')
 
 <div class="main-banner" id="top">
   <div class="container">
@@ -55,4 +53,3 @@
   </div>
 </div>
 
-@endsection
