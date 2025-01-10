@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
@@ -18,5 +19,21 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+        DB::table('landingpages')->insert(
+            [
+                'title' => 'block01',
+                'order' => 1,
+                'status' => 1
+    
+            ],
+           
+        );
+        DB::table('landingpages')->insert(
+            [
+                'title' => 'block02',
+                'order' => 2,
+                'status' => 1
+            ],
+        );
     }
 }

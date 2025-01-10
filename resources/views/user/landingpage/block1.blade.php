@@ -1,5 +1,5 @@
 
-@if (!empty($landingPage->title == 'block1') & $landingPage->title == 'block1')
+@if (!empty($landingPage->title == 'block01') & $landingPage->title == 'block01')
 <br>
 <div class="main-banner" id="top">
   <div class="container">

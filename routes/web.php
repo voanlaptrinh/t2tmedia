@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('user.index');
-});
+// Route::get('/', function () {
+//     return view('user.index');
+// });
 Route::get('/', [LandingpageController::class, 'index'])->name('landingpage');
+// Route::post('/store', [LandingpageController::class, 'store'])->name('landingpage.store');
