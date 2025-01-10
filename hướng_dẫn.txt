@@ -1,0 +1,17 @@
+1. Tạo bảng trong thư mục app>database>migrations
+2. Tạo model tương ứng với bảng vừa tạo để kết nối với bảng để truy vấn
+3. sau khi tạo xong 2 thứ đó chạy câu lệnh "php artisan migrate:fresh --seed" để chạy dữ liệu bảng trên db 
+    * lưu ý khai báo tên bảng trong env tương ứng với xampp
+4. tạo Controller "php artisan make:controller Tên_controller" các funtion để thực hiện giữu db và người dùng khi thao tác trên views 
+    - ở đây sẽ viết các câu lệnh truy vấn đến database để đưa ra cho người dùng (admin thêm sửa xóa...) (users là các thứ khác)
+    - Sau đó sẽ trả về views
+5. Viết router>web (Nơi khai báo đường dẫn của trang) 
+    - VD: Route::get('/', [LandingpageController::class, 'index'])->name('landingpage');
+      Trong đó có "/" là đường dẫn người dùng có thể tới với url có thể là các đường dẫn khác nếu có
+      LandingpageController là GỌi đến controoler nào mình mong muốn 
+      "index" là class tương ứng trong controller đó
+       name('landingpage')  là tên gọi của route      
+6. từ mục 4 Controller sẽ trả về các biến mà mình đã return về views mà bên views ccos thể tùy ý sử dụng
+7. Public nơi chứa các thư mục như css js và images....
+8. Trong dự án có mục seeder đây là nơi mình có thể tạo các dữ liệu mẫu cho trang web
+9. khi muốn chạy dự án bằng câu lệnh php artisan ser --port=9000
