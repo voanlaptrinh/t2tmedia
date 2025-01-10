@@ -1,4 +1,6 @@
 
+@if (!empty($landingPage->title == 'block1') & $landingPage->title == 'block1')
+<br>
 <div class="main-banner" id="top">
   <div class="container">
     <div class="row">
@@ -52,4 +54,11 @@
     </div>
   </div>
 </div>
+
+@endif
+
+
+
+
+
 

@@ -22,9 +22,7 @@
 
     <main id="main" class="main">
         <ul id="sortable">
-
-
-            @foreach ($landingpages as $landingPage)
+            @foreach ($landingpage as $landingPage)
                 @include('user.landingpage.block1')
                 @include('user.landingpage.block2')
                 @include('user.landingpage.block3')
@@ -35,12 +33,9 @@
                 @include('user.landingpage.block8')
                 @include('user.landingpage.block9')
             @endforeach
-
         </ul>
     </main>
-
     @include('user.common.footer')
-
 
     <!-- Scripts -->
     <script src="{{ asset('js/jquery.min.js') }}"></script>
