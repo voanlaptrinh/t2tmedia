@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('title3')->nullable();
             $table->string('title4')->nullable();
             $table->string('title5')->nullable();
-            $table->unsignedBigInteger('langdingpage_id');
+            $table->unsignedBigInteger('landingpage_id');
             $table->foreign('landingpage_id')->references('id')->on('landingpages')->onDelete('cascade'); //tạo khóa ngoại tham chiếu đến cột id trong bản landingpages, tự động cập nhật xóa nếu xóa ở langdingpages.
             $table->timestamps();
         });
