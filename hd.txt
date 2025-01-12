@@ -15,3 +15,7 @@
 7. Public nơi chứa các thư mục như css js và images....
 8. Trong dự án có mục seeder đây là nơi mình có thể tạo các dữ liệu mẫu cho trang web
 9. khi muốn chạy dự án bằng câu lệnh php artisan ser --port=9000
+
+10. mỗi khi đường dẫn tới ảnh hoặc file css hay js hay bất kì file nào trong dự án cần thêm {{asset('--urlFile--')}}
+    -- nếu sang một đường dẫn khác thì sẽ là {{route('--url--)}}
+    <a href='http://facebook.com/'> facebook </a>
