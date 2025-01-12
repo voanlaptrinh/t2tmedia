@@ -1,4 +1,5 @@
-    <div id="services" class="our-services section">
+@if (!empty($landingPage->title == 'block02') & $landingPage->title == 'block02')
+  <div id="services" class="our-services section">
         <div class="services-right-dec">
             <img src="/images/services-right-dec.png" alt="">
         </div>
@@ -82,3 +83,4 @@
             </div>
         </div>
     </div>
+@endif

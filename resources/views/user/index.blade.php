@@ -24,14 +24,14 @@
         <ul id="sortable">
             @foreach ($landingpage as $landingPage)
                 @include('user.landingpage.block1')
-                {{-- @include('user.landingpage.block2')
+                @include('user.landingpage.block2')
                 @include('user.landingpage.block3')
                 @include('user.landingpage.block4')
                 @include('user.landingpage.block5')
                 @include('user.landingpage.block6')
                 @include('user.landingpage.block7')
                 @include('user.landingpage.block8')
-                @include('user.landingpage.block9') --}}
+                @include('user.landingpage.block9')
             @endforeach
         </ul>
     </main>

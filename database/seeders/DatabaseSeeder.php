@@ -21,19 +21,29 @@ class DatabaseSeeder extends Seeder
         // ]);
         DB::table('landingpages')->insert(
             [
-                'title' => 'block01',
+                'title' => 'block02',
                 'order' => 1,
                 'status' => 1
     
             ],
-           
-        );
-        DB::table('landingpages')->insert(
             [
                 'title' => 'block02',
                 'order' => 2,
                 'status' => 1
             ],
+            [
+                'title' => 'block03',
+                'order' => 3,
+                'status' => 1
+            ]
+           
         );
+        // DB::table('landingpages')->insert(
+        //     [
+        //         'title' => 'block02',
+        //         'order' => 2,
+        //         'status' => 1
+        //     ],
+        // );
     }
 }
